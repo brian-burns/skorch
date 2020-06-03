@@ -107,16 +107,25 @@ textarea {
      color: #3B3B3B;
    }
 
-   h1, h2, h3, h4 {
-    letter-spacing: -.05rem;
+   html, body {
+     height: 100%;
+     display: grid;
    }
 
+   .center-me {
+     margin: auto;
+   }
+
+   h1, h2, h3, h4 {
+    letter-spacing: -.2rem;
+   }
 
     header h1 {
       margin-bottom: -16px;
     }
 
     header h2 {
+      color: #717171;
       margin-bottom: 50px;
     }
 
@@ -229,7 +238,15 @@ textarea {
   /* Style adjustments for viewports that meet the condition */
 
 .container {
-  width: 70%;
+  margin: auto;
+}
+
+html, body {
+  height: 100%;
+  display: grid;
+}
+
+.center-me {
   margin: auto;
 }
 
@@ -240,6 +257,15 @@ textarea {
 
 .container {
   margin: 40px;
+}
+
+html, body {
+  height: 100%;
+  display: grid;
+}
+
+.center-me {
+  margin: auto;
 }
 
 }
